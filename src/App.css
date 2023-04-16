@@ -1,0 +1,55 @@
+.App {
+  margin-top: 5rem;
+  width: 500px;
+} 
+
+.result-window {
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(228, 228, 228);
+  font-size: medium;
+  overflow-x: auto;
+}
+
+.keyboard {
+  display: flex;
+  gap: .5rem;
+}
+
+.keyboard .numbers-block {
+  width: 70%;
+}
+
+.keyboard .operations-block {
+  width: 30%;
+}
+
+.row {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: .5rem;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-size: medium;
+}
+
+.number {
+  border: 1px solid rgb(170, 224, 255);
+  background-color: rgb(204, 236, 255);
+}
+
+.operations {
+  border: 1px solid rgb(252, 193, 84);
+  background-color: rgb(255, 226, 173);
+  }
+
+.operations:disabled {
+  border: 1px solid rgb(204, 202, 202);
+  background-color: rgb(233, 233, 233);
+  color: rgb(189, 188, 188);
+}
